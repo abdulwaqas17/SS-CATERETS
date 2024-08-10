@@ -54,6 +54,12 @@ a{
     
 }
 
+.R-reverse{
+
+    flex-direction: row-reverse;
+
+}
+
 .btn:hover{
 
     background-color: transparent;
@@ -286,9 +292,18 @@ ul>li>a:focus{
 
 
 /* Styling of Menu-Section Start */
-.menu-box{
+.top h2{
 
-    background-color: rgb(245,245,245);
+    color: black;
+}
+
+.heading{
+
+    color: var(--main-color);
+    font-size: 3.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-block: 100px 50px;
 }
 
 .top-content{
@@ -319,6 +334,7 @@ ul>li>a:focus{
 .menu-header{
 
     border-bottom: 2px solid black;
+    background-color: rgb(245,245,245);
 }
 
 .box{
@@ -339,18 +355,102 @@ ul>li>a:focus{
 }
 
 /* Hover state of box */
+.box:active{
+
+    background-color: var(--main-color);
+    
+    
+}
+
 .box:focus{
 
-    background-color: var(--main-color) !important;
-    color: var(--text-white);
+    background-color: var(--main-color);
+    
     
 }
 .box:focus .top h2{
 
     /* Point to be notice */
     border-color: white;
+    color: var(--text-white);
     
 }
+
+
+
+/* Styling of menu-foods Start */
+
+.food-row{
+
+    flex-wrap: wrap;
+}
+
+
+.food-box{
+
+    width: 50%;
+    height: 250px;
+    border: 0.5px solid rgb(105, 103, 103);
+
+}
+
+.product{
+
+    width: 50%;
+    
+}
+
+.product img{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.detail{
+
+    width: 50%;
+    padding: 40px 20px;
+
+}
+
+.detail h1{
+
+   font-weight: 500;
+
+}
+
+.detail p{
+
+    line-height: 1.9rem;
+    padding-block: 20px 10px;
+    font-size: 1.1rem;
+}
+
+.detail .btn{
+
+   padding: 10px 20px;
+   font-size: 1.1rem;
+   font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
