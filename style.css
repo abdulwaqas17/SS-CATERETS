@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=The+Nautigal:wght@400;700&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Great+Vibes&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=The+Nautigal:wght@400;700&display=swap');
+
 *{
 
     box-sizing: border-box;
@@ -22,6 +25,7 @@ body{
     --main-color:#e75b2a;
     --unique-font: "Lobster", sans-serif;
     --text-dark-gray:rgb(89, 86, 90);
+    --great-vibe:"Great Vibes", cursive;
 }
 
 
@@ -51,6 +55,13 @@ a{
     transition: 0.2s ease;
     border: none;
     border: 2px solid var(--main-color);
+    
+}
+
+.box-style{
+
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px rgb(218, 217, 217);
     
 }
 
@@ -292,6 +303,12 @@ ul>li>a:focus{
 
 
 /* Styling of Menu-Section Start */
+
+.menu-box{
+
+    background-color: rgb(245,245,245);
+
+}
 .top h2{
 
     color: black;
@@ -300,8 +317,9 @@ ul>li>a:focus{
 .heading{
 
     color: var(--main-color);
-    font-size: 3.5rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.5rem;
+    font-family: var(--great-vibe);
+    /* letter-spacing: 0.3rem; */
     font-weight: bolder;
     margin-block: 100px 50px;
 }
@@ -315,7 +333,7 @@ ul>li>a:focus{
 
     color: var(--main-color);
     font-family: var(--unique-font);
-    font-size: 3.4rem;
+    font-size: 5.4rem;
     font-weight: 500;
     margin-top: 60px;
 }
@@ -334,7 +352,7 @@ ul>li>a:focus{
 .menu-header{
 
     border-bottom: 2px solid black;
-    background-color: rgb(245,245,245);
+
 }
 
 .box{
@@ -383,6 +401,7 @@ ul>li>a:focus{
 .food-row{
 
     flex-wrap: wrap;
+    background-color: white;
 }
 
 
@@ -390,7 +409,7 @@ ul>li>a:focus{
 
     width: 50%;
     height: 250px;
-    border: 0.5px solid rgb(105, 103, 103);
+    border: 0.5px solid rgb(155, 154, 154);
 
 }
 
@@ -414,9 +433,10 @@ ul>li>a:focus{
 
 }
 
-.detail h1{
+.detail h2{
 
    font-weight: 500;
+   font-size: 1.4rem;
 
 }
 
@@ -424,7 +444,8 @@ ul>li>a:focus{
 
     line-height: 1.9rem;
     padding-block: 20px 10px;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    color: var(--text-dark-gray);
 }
 
 .detail .btn{
@@ -432,6 +453,89 @@ ul>li>a:focus{
    padding: 10px 20px;
    font-size: 1.1rem;
    font-weight: 600;
+}
+
+/* Styling for offer Section Start */
+.offer-section{
+
+    background-color: #f1efef7a;
+    padding-bottom:20px ;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px rgb(218, 217, 217);
+    padding-inline: 10px;
+}
+.offer-boxes{
+
+    justify-content: space-between;
+}
+
+
+
+.offer-h1{
+
+    font-family: var(--unique-font);
+    font-size: 4.4rem;
+    font-weight: lighter;
+    margin-block: 80px 30px;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.offer-p{
+
+    width: 70%;
+    margin-inline: auto;
+    text-align: center;
+    line-height: 1.6rem;
+    margin-bottom: 40px;
+}
+.offer-box{
+
+    flex-basis: 28%;
+    text-align: center;
+    border: 1px solid var(--main-color);
+}
+
+
+.offer-banner{
+
+    background-color: var(--main-color);
+    text-align: center;
+    padding-block: 20px 30px;
+    color: var(--text-white);
+}
+
+.offer-banner h3{
+
+    padding-block: 10px;
+}
+
+.price{
+
+    background-color: var(--text-gray);
+    text-align: center;
+    padding-block: 30px;
+}
+
+.menu-itmes-list li{
+
+    border-bottom: 1px solid var(--text-gray);
+    padding-block: 10px;
+    font-size: 0.9rem;
+}
+
+.buttom-button{
+
+    background-color: #eeebeb94;
+    padding: 5px 10px;
+}
+
+.buttom-button .btn{
+
+    width: 100%;
+    padding-block: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
 
