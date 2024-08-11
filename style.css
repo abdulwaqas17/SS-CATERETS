@@ -42,6 +42,11 @@ body{
     margin-inline: 100px;
 }
 
+.gray{
+
+    color: gray!important;
+}
+
 a{
 
     text-decoration: none;
@@ -539,6 +544,147 @@ ul>li>a:focus{
 }
 
 
+
+
+
+
+
+
+/* Styling for Reservation start */
+.Reservation-top{
+
+    text-align: center;
+}
+
+.Reservation-top h1{
+
+    font-family: var(--unique-font);
+    color: var(--main-color);
+    font-size: 5rem;
+    margin-block: 100px 30px;
+
+}
+
+.Reservation-top h3{
+
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.Reservation-top p{
+
+    color: var(--text-dark-gray);
+    margin-block: 20px 50px;
+    font-size: 0.9rem;
+}
+
+
+.Reservation-inputs{
+
+    width: 70%;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    gap: 30px ;
+
+
+}
+
+.Reservation-inputs div{
+
+
+    flex-basis: 47%;
+
+}
+
+div input,select{
+
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    border: 2px dotted gray;
+    border-radius: 3px;
+    background-color: rgb(245,245,245);
+}
+
+::placeholder{
+
+    color: rgb(26, 25, 25);
+    font-size: 0.9rem;
+}
+
+
+.booking{
+
+    text-align: center;
+    margin-block: 60px 40px;
+
+}
+
+.booking .btn{
+
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.contact-us{
+
+    background-color: black;
+    padding-bottom: 50px;
+ 
+}
+
+.contact-us-top{
+
+    padding-block: 60px 30px;
+    font-size: 1.5rem;
+}
+
+.contact-us-boxes{
+
+    justify-content: space-evenly;
+}
+
+.contact-us-box{
+
+    flex-basis: 18%;
+    
+}
+
+.contact-us-box h3{
+
+    color: var(--main-color);
+    font-family: var(--unique-font);
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+
+}
+
+.contact-us-box p{
+
+    color: var(--text-white);
+    line-height: 1.8rem;
+    font-size: 0.85rem;
+
+}
+
+.icons{
+
+    margin-top: 10px;
+}
+
+.icons a{
+
+    padding-inline:7px;
+}
 
 
 
