@@ -13,6 +13,7 @@
 body{
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: rgba(85, 84, 84, 0.185); */
 
 }
 
@@ -312,6 +313,7 @@ ul>li>a:focus{
 .menu-box{
 
     background-color: rgb(245,245,245);
+    border: 7px solid  rgb(245,245,245);
 
 }
 .top h2{
@@ -327,6 +329,8 @@ ul>li>a:focus{
     /* letter-spacing: 0.3rem; */
     font-weight: bolder;
     margin-block: 100px 50px;
+    text-shadow: -10px -10px 10px gray;
+    word-spacing: 1rem;
 }
 
 .top-content{
@@ -637,8 +641,13 @@ div input,select{
 
 .contact-us{
 
-    background-color: black;
-    padding-bottom: 50px;
+    background-color: rgb(22, 22, 22);
+    background-image: url(./assets/bbq.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+
+    padding-bottom: 90px;
  
 }
 
@@ -672,7 +681,7 @@ div input,select{
 
     color: var(--text-white);
     line-height: 1.8rem;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
 
 }
 
@@ -686,8 +695,79 @@ div input,select{
     padding-inline:7px;
 }
 
+.icons a i:hover{
+
+    color: var(--main-color);
+
+}
+
+p>i{
+
+    color: var(--main-color);
+}
 
 
+
+
+
+
+
+/* Styling for footer start */
+footer{
+
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-top: 2px dotted white;
+
+}
+
+footer p{
+
+    font-size: 0.8rem;
+    color: var(--text-white);
+    
+}
+
+footer a{
+
+    font-size: 0.8rem;
+    color: var(--text-dark);
+
+}
+
+
+
+/* Styling for arrow start */
+.arrow{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(15, 15, 15, 0.788);
+    color: rgba(255, 255, 255, 0.719);
+    font-weight: bolder;
+    border:1px solid rgba(255, 255, 255, 0.685);
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.arrow:hover{
+
+    background-color: rgba(0, 0, 0, 0.884);
+    color: rgba(255, 255, 255, 0.87);
+    border:2px solid rgba(255, 255, 255, 0.685);
+    cursor: pointer;
+}
 
 
 

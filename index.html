@@ -17,7 +17,7 @@
 
 
     <!-- Header is here -->
-    <header>
+    <header id="arrow">
 
 
       <!-- Navbar is here -->
@@ -35,11 +35,11 @@
 
           <ul class="flex">
             <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">MENU</a></li>
-            <li><a href="#">SPECIAL OFFER</a></li>
-            <li><a href="#">RESERVATION</a></li>
-            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#about-us">ABOUT US</a></li>
+            <li><a href="#menu">MENU</a></li>
+            <li><a href="#offer">SPECIAL OFFER</a></li>
+            <li><a href="#reservation">RESERVATION</a></li>
+            <li><a href="#contact-us">CONTACT US</a></li>
 
           </ul>
 
@@ -68,7 +68,7 @@
 
 
     <!-- About-Section is here -->
-    <section class="About-Section flex">
+    <section class="About-Section flex" id="about-us">
 
       <div class="About-Section-content">
         <h2>About Us</h2>
@@ -109,14 +109,13 @@
 
 
     <!-- Menu-Section is here -->
-    <section class="Menu-Section">
+    <section class="Menu-Section" id="menu">
 
       <div class="container">
 
 
         <!-- top-content is here -->
-        <div class="top-content">
-
+        <div class="top-content" >
           <h1>Our Menu</h1>
 
           <p>
@@ -303,7 +302,7 @@
 
             <!-- MAIN DISHES IS HERE -->
             <h1 class="heading center" id="main-dishes">
-              Main Dishes Items
+              Main Dishes
             </h1>
 
 
@@ -433,7 +432,7 @@
 
             <!-- DESSERT IS HERE -->
             <h1 class="heading center" id="desserts">
-              Dessert Items
+              Dessert Foods
             </h1>
 
 
@@ -482,7 +481,7 @@
 
               <!-- Row-2 Reverse -->
               <!-- Box-3 -->
-              <div class="food-box flex R-reverse">
+              <!-- <div class="food-box flex R-reverse">
 
                 <div class="product">
                   <img src="./assets/kaspas-desserts.jpg" alt="dessert item">
@@ -496,12 +495,12 @@
 
                 </div>
 
-              </div>
+              </div> -->
 
 
 
               <!-- Box-4 -->
-              <div class="food-box flex R-reverse">
+              <!-- <div class="food-box flex R-reverse">
 
                 <div class="product">
                   <img src="./assets/Pastry-dessert.jpg" alt="dessert item">
@@ -515,7 +514,7 @@
 
                 </div>
 
-              </div>
+              </div> -->
 
 
               <!-- Row-3-->
@@ -565,7 +564,7 @@
 
             <!-- DRINKS IS HERE -->
             <h1 class="heading center" id="drinks">
-              Drink Items
+              Cold Drinks
             </h1>
 
 
@@ -671,7 +670,7 @@
 
 
     <!-- Offer-Section is here -->
-    <section class="offer">
+    <section class="offer" id="offer">
 
       <div class="container offer-section box-style">
 
@@ -872,7 +871,7 @@
 
 
     <!-- Reservation-Section is here -->
-    <section class="Reservation">
+    <section class="Reservation" id="reservation">
 
       <div class="container">
 
@@ -966,7 +965,14 @@
     </section>
 
 
-    <section class="contact-us">
+
+
+
+
+
+
+    <!-- Contact-us-Section is here -->
+    <section class="contact-us" id="contact-us">
 
       <div class="contact-us-top center">
   
@@ -978,6 +984,8 @@
 
       <div class="contact-us-boxes flex">
 
+
+        <!-- About us -->
         <div class="contact-us-box">
 
           <h3>About Us</h3>
@@ -999,6 +1007,8 @@
         </div>
 
 
+
+        <!-- Opening Hours -->
         <div class="contact-us-box">
 
           <h3>Opening Hours</h3>
@@ -1009,12 +1019,14 @@
           <p class="gray">11:00 AM-5:00 AM</p>
         </div>
 
+
+        <!-- Contact us -->
         <div class="contact-us-box">
 
           <h3>Contact Us</h3>
           <p><i class="fa-solid fa-house-chimney"></i> Karachi,Pakistan</p>
           <p><i class="fa-solid fa-phone"></i> <a href="tel:+92 0312-3456789"> +92 0312-3456789</a></p>
-          <p><i class="fa-regular fa-envelope"></i> <a href="mailto:www.waqas@gamil.com">www.waqas@gamil.com</a></p>
+          <p><i class="fa-regular fa-envelope"></i> <a href="mailto:www.waqas@gamil.com"> www.waqas@gamil.com</a></p>
         </div>
 
       </div>
@@ -1024,9 +1036,29 @@
 
 
 
+
+
+    <!-- Footer is here -->
+    <footer>
+
+      <p>Copyright © 2024 SS Caterets Website is Design by <a href="#">Muhammad Waqas</a></p>
+
+    </footer>
+
+
+
+
+
+     <!-- Arrow is here -->
+  <div class="arrow">
+    <a href="#arrow"><p>^</p></a>
   </div>
 
-  <div class="spacer" style="height: 400vh;"></div>
+
+  </div>
+
+
+ 
 
 </body>
 
