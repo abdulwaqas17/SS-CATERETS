@@ -92,14 +92,20 @@ a{
 
 
 /* Styling of S S-Caterers Start */
+.bar{
 
+    color: var(--main-color);
+    font-size: 2rem;
+    display: none;
+
+}
 
 /* Styling of Header Start */
 header{
 
     height: 100vh;
     background-color: black;
-    background-image: url(https://assets.foodhub.com/images/thumbnails/indian_rice_seafood_004_692x306.jpg);
+    /* background-image: url(https://assets.foodhub.com/images/thumbnails/indian_rice_seafood_004_692x306.jpg); */
     background-image: url(https://media.istockphoto.com/id/1330797206/photo/greek-food-double-border-top-view-on-a-dark-banner-background.jpg?s=612x612&w=0&k=20&c=GozeHjOWjkph5Ba0LHfKZm8npaWWFyACseP94kM0-yY=);
     background-size: cover;
 }
@@ -116,11 +122,12 @@ nav{
     top: 0px;
     right: 0px;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 60px;
     background-color: rgba(32, 32, 32);
     color: var(--text-white);
+    padding-inline:50px ;
     
     
 
@@ -282,6 +289,7 @@ ul>li>a:focus{
     background-size: cover;
     background-position: center;
     animation: circles 10s  2s infinite;
+    border: 10px solid rgba(255, 255, 255, 0.89);
 
 }
 
@@ -313,7 +321,7 @@ ul>li>a:focus{
 .menu-box{
 
     background-color: rgb(245,245,245);
-    border: 7px solid  rgb(245,245,245);
+    /* border: 2px solid  rgb(245,245,245); */
 
 }
 .top h2{
@@ -360,7 +368,7 @@ ul>li>a:focus{
 
 .menu-header{
 
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
 
 }
 
@@ -375,7 +383,7 @@ ul>li>a:focus{
 
 .top h2{
 
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     display: inline-block;
     padding-block: 10px;
     font-weight: 500;
@@ -389,12 +397,13 @@ ul>li>a:focus{
     
 }
 
-.box:focus{
+.menu-header>.box:focus{
 
     background-color: var(--main-color);
     
     
 }
+
 .box:focus .top h2{
 
     /* Point to be notice */
@@ -468,7 +477,7 @@ ul>li>a:focus{
 .offer-section{
 
     background-color: #f1efef7a;
-    padding-bottom:20px ;
+    padding-bottom:5px ;
     border-radius: 3px;
     box-shadow: 0px 0px 5px 1px rgb(218, 217, 217);
     padding-inline: 10px;
@@ -536,7 +545,7 @@ ul>li>a:focus{
 .buttom-button{
 
     background-color: #eeebeb94;
-    padding: 5px 10px;
+    padding:10px;
 }
 
 .buttom-button .btn{

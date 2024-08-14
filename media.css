@@ -1,0 +1,97 @@
+/* Media Query For Laptop */
+@media (max-width:768px) {
+    
+    /* Media Query for header */
+    .links{
+
+        display: none;
+
+    }
+
+    .bar{
+
+        display: block;
+
+    }
+
+
+    /* Media Query for about section */
+    .About-Section{
+
+        flex-direction: column;
+        gap: 50px;
+        height: auto;
+        padding: 80px 30px;
+
+    }
+
+    /* Media Query for menu section */
+    .container{
+
+        margin-inline: 30px;
+
+    }
+
+    .top-content p{
+
+        margin-block:30px;
+        margin-inline: 20px;
+        width: auto;
+    }
+
+    .top h2{
+
+        font-size: 1rem;
+    }
+
+    .bottom img{
+
+        width: 40px;
+        height: 40px;
+     
+    }
+    
+    .box{
+
+        height: 130px;
+        gap: 20px;
+    }
+
+    .food-box{
+
+        width: 100%;
+
+    }
+
+    .offer-section{
+
+        padding-inline: 5px;
+    }
+
+    .offer-box {
+
+        flex-basis: 31%;
+    }
+
+    .Reservation-inputs{
+
+        width: 85%;
+    }
+
+    .contact-us-box{
+
+        flex-basis: 25%;
+
+    }
+
+    .contact-us-box-about{
+
+        flex-basis: 32%;
+    }
+
+
+
+
+
+
+}
