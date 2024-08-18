@@ -1,5 +1,5 @@
 /* Media Query For Laptop */
-@media (max-width:768px) {
+@media (max-width:768px) and (min-width:425px) {
     
     /* Media Query for header */
     .links{
@@ -12,6 +12,13 @@
 
         display: block;
 
+    }
+
+
+    header{
+
+        height: auto;
+        padding-bottom: 60px;
     }
 
 
@@ -94,4 +101,201 @@
 
 
 
+}
+
+
+/* For Mobile */
+@media (max-width:425px) {
+    
+
+    .S.S-Caterets{
+
+        overflow: hidden;
+        width: 100%;
+        
+    }
+
+    .container{
+
+        margin-inline: 20px;
+    }
+
+        
+    /* Media Query for header */
+    .links{
+
+        display: none;
+
+    }
+
+    .bar{
+
+        display: block;
+
+    }
+
+
+    header{
+
+        height: auto;
+        padding-bottom: 60px;
+        padding-inline: 20px;
+    }
+
+    .banner-content h1{
+
+        font-size: 3rem;
+        padding-block: 170px 10px;
+    }
+
+    .banner-content h2{
+
+        font-size: 2rem;
+    }
+
+     /* Media Query for about section */
+    .About-Section{
+
+        flex-direction: column;
+        gap: 50px;
+        height: auto;
+        padding: 80px 20px;
+    
+    }
+
+    .About-Section-circle{
+
+        width: 380px;
+        height: 380px;
+    }
+    .top-content h1{
+
+        font-size: 3.4rem;
+        font-weight: 500;
+        margin-top: 60px;
+    } 
+
+    .top-content p {
+
+        margin-block: 30px;
+        font-size: 0.95rem;
+        padding: 0px;
+        margin-inline: 8px;
+        text-align: center;
+        width: auto;
+    }    
+
+
+
+
+     /* Media Query for menu section */
+    .top h2{
+
+        font-size: 0.83rem;
+    }
+
+    .bottom img {
+    width: 35px;
+    height: 35px
+    }
+
+    .heading {
+
+        font-size: 3.3rem;
+    }
+
+    .food-box{
+
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .detail,.product{
+
+        width: 100%;
+    }
+
+    .detail p{
+
+        padding-block: 20px;
+    }
+
+
+
+
+
+    
+      /* Media Query for offer section*/
+    .offer-h1{
+
+        font-size: 3rem;
+    } 
+
+    .offer-p {
+
+        width: auto;
+        margin-inline: 5px;
+    }
+
+    .offer-boxes{
+
+        gap: 40px;
+    
+    }
+
+    .offer-box {
+        flex-basis: 100%;
+    }    
+
+
+
+
+
+
+
+    /* Media Query for reservation section*/
+    .Reservation-top h1 {
+
+        font-size: 3.3rem;
+    }
+
+    .Reservation-top h3 {
+
+        font-size: 1.3rem;
+        
+    }
+
+    .Reservation-inputs{
+
+        width: 90%;
+    }
+
+    .Reservation-inputs div{
+
+        flex-basis: 100%;
+    }
+
+
+
+
+
+    /* Media Query for contact-us section*/
+    .contact-us-boxes{
+
+        flex-direction: column;
+        padding-inline: 20px;
+        gap: 30px;
+    }
+
+    .contact-us-box h3 {
+
+        margin-bottom: 10px;
+    }
+
+
+
+     /* Media Query for footer*/
+    
+
+    
 }
