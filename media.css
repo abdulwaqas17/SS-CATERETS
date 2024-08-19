@@ -165,8 +165,8 @@
 
     .About-Section-circle{
 
-        width: 380px;
-        height: 380px;
+        width: 350px;
+        height: 350px;
     }
     .top-content h1{
 
@@ -208,6 +208,8 @@
 
         flex-direction: column;
         height: 500px;
+        width: 100%;
+        
     }
 
     .detail,.product{
