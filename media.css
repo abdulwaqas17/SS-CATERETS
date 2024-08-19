@@ -165,8 +165,8 @@
 
     .About-Section-circle{
 
-        width: 350px;
-        height: 350px;
+        width: 320px;
+        height: 330px;
     }
     .top-content h1{
 
@@ -191,7 +191,7 @@
      /* Media Query for menu section */
     .top h2{
 
-        font-size: 0.83rem;
+        font-size: 0.6rem;
     }
 
     .bottom img {
@@ -209,7 +209,7 @@
         flex-direction: column;
         height: 500px;
         width: 100%;
-        
+
     }
 
     .detail,.product{
