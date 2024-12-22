@@ -122,11 +122,52 @@
 
         
     /* Media Query for header */
+    nav {
+
+        padding-inline: 25px;
+
+    }
+
+    
+    .links{
+
+        position: absolute;
+
+        background-color: var(--text-dark);
+
+        left: -100%;
+
+        top: 100%;
+
+        width: 100%;
+
+        padding-block: 20px;
+        border-top: 2px solid var(--main-color);
+        transition: 0.2s ease-in-out;
+        
+    }
+
+    .active{
+
+        left: 0;
+
+    }
+
+    .links ul{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        
+
+    }
+/* 
     .links{
 
         display: none;
 
-    }
+    } */
 
     .bar{
 
@@ -294,5 +335,15 @@
         margin-bottom: 10px;
     }
 
+    .whatsappLink {
+        opacity: 0.5;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+    }
+
+    .whatsappLink:hover {
+        opacity: 1;
+    }
    
 }

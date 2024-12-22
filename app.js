@@ -444,6 +444,20 @@ function drink() {
             </div>`;
 }
 
+
+
+
+// for nav bar on mobile 
+const toggleButton = document.querySelector(".bar");
+const navLinks = document.querySelector(".links");
+
+toggleButton.addEventListener("click" , () => {
+
+ navLinks.classList.toggle("active")
+
+ }
+)
+
 // for add outline when click
 var linksUl = document.querySelectorAll(".linksUl a");
 
@@ -465,6 +479,28 @@ linksUl.forEach((a) => {
 
 console.dir(linksUl);
 
+
+
+// for scrool button show 
+// Get the button:
+let mybutton = document.querySelector('.arrow');
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    mybutton.style.display = "flex";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 // ------EVENTS For Changing Nav Link Color ------
 // var Line = document.querySelector("ul>li>a");
 // var homeLink = document.querySelector("#homeLink");
