@@ -35,13 +35,19 @@
 
         <div class="links">
 
-          <ul class="flex">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#about-us">ABOUT US</a></li>
-            <li><a href="#menu">MENU</a></li>
-            <li><a href="#offer">SPECIAL OFFER</a></li>
-            <li><a href="#reservation">RESERVATION</a></li>
-            <li><a href="#contact-us">CONTACT US</a></li>
+          <ul class="flex linksUl">
+
+            <li><a href="#" id="homeLink">HOME</a></li>
+            
+            <li><a href="#about-us" id="aboutLink">ABOUT US</a></li>
+
+            <li><a href="#menu" id="menuLink">MENU</a></li>
+
+            <li><a href="#offer" id="offerLink">SPECIAL OFFER</a></li>
+
+            <li><a href="#reservation" id="reservationLink">RESERVATION</a></li>
+
+            <li><a href="#contact-us" id="contactLink">CONTACT US</a></li>
 
           </ul>
 
@@ -139,8 +145,8 @@
           <div class="menu-header flex">
 
 
-            <!-- Box-1 -->
-            <a href="#starter" class="box flex">
+            <!-- Box-1    (href="#starter") yhn phelay id thi but ab Event call kr dia-->
+            <a  class="box flex" href="#starter" onclick="starter()">
 
               <div class="top">
                 <h2>STARTERS</h2>
@@ -155,8 +161,8 @@
             </a>
 
 
-            <!-- Box-2 -->
-            <a href="#main-dishes" class="box flex">
+            <!-- Box-2   (href="#main-dishes")-->
+            <a  class="box flex" href="#main-dishes" onclick="mainDishes()">
 
               <div class="top">
                 <h2>MAIN DISHES</h2>
@@ -171,8 +177,8 @@
             </a>
 
 
-            <!-- Box-3 -->
-            <a href="#desserts" class="box flex">
+            <!-- Box-3    (href="#desserts")-->
+            <a  class="box flex" href="#desserts" onclick="dessert()">
 
               <div class="top">
                 <h2>DESSERTS</h2>
@@ -187,8 +193,8 @@
             </a>
 
 
-            <!-- Box-4 -->
-            <a href="#drinks" class="box flex" >
+            <!-- Box-4    (href="#drinks")-->
+            <a  class="box flex" href="#drinks" onclick="drink()">
 
               <div class="top">
                 <h2>DRINKS</h2>
@@ -309,261 +315,22 @@
 
 
             <!-- MAIN DISHES IS HERE -->
-            <h1 class="heading center" id="main-dishes">
-              Main Dishes
-            </h1>
+           
 
 
             <!-- Food-Rows are here -->
-            <div class="food-row flex">
-
-
-              <!-- Row-1 -->
-              <!-- Box-1 -->
-              <div class="food-box flex">
-
-                <div class="product">
-                  <img src="./assets/biryani.jpg" alt="main-dishes">
-                </div>
-
-                <div class="detail">
-
-                  <h2>Special Biryani</h2>
-                  <p>Deliciously crafted dishes to delight your senses</p>
-                  <button class="btn">Book Now</button>
-
-                </div>
-
-              </div>
-
-
-
-              <!-- Box-2 -->
-              <div class="food-box flex">
-
-                <div class="product">
-                  <img src="./assets/korma.png" alt="main-dishes">
-                </div>
-
-                <div class="detail">
-
-                  <h2>Korma</h2>
-                  <p>Deliciously crafted dishes to delight your senses</p>
-                  <button class="btn">Book Now</button>
-
-                </div>
-
-              </div>
-
-
-              <!-- Row-2 Reverse -->
-              <!-- Box-2 -->
-              <div class="food-box flex R-reverse">
-
-                <div class="product">
-                  <img src="https://kfoods.com/images1/newrecipeicon/lab-e-shireen_284.jpg" alt="main-dishes">
-                </div>
-
-                <div class="detail">
-
-                  <h2>Lab-e-Shireen</h2>
-                  <p>Deliciously crafted dishes to delight your senses.</p>
-                  <button class="btn">Book Now</button>
-
-                </div>
-
-              </div>
-
-
-
-              <!-- Box-4 -->
-              <div class="food-box flex R-reverse">
-
-                <div class="product">
-                  <img src="./assets/bbq.jpg" alt="main-dishes">
-                </div>
-
-                <div class="detail">
-
-                  <h2>Bar.B.Q</h2>
-                  <p>Deliciously crafted dishes to delight your senses</p>
-                  <button class="btn">Book Now</button>
-
-                </div>
-
-              </div>
-
-
-              <!-- Row-3-->
-              <!-- Box-5 -->
-              <div class="food-box flex">
-
-                <div class="product">
-                  <img src="./assets/fish.jpg" alt="main-dishes">
-                </div>
-
-                <div class="detail">
-
-                  <h2>Fish Fry</h2>
-                  <p>Deliciously crafted dishes to delight your senses.</p>
-                  <button class="btn">Book Now</button>
-
-                </div>
-
-              </div>
-
-
-
-              <!-- Box-6 -->
-              <div class="food-box flex">
-
-                <div class="product">
-                  <img src="https://www.masala.tv/wp-content/uploads/2021/10/KULFA-KHEER-WEB.jpg" alt="main-dishes">
-                </div>
-
-                <div class="detail">
-
-                  <h2>Kulfa-Kheer</h2>
-                  <p>Deliciously crafted dishes to delight your senses.</p>
-                  <button class="btn">Book Now</button>
-
-                </div>
-
-              </div>
-
-
-            </div>
+            
 
 
 
 
 
             <!-- DESSERT IS HERE -->
-            <h1 class="heading center" id="desserts">
-              Dessert Foods
-            </h1>
+            
 
 
             <!-- Food-Rows are here -->
-            <div class="food-row flex">
-
-
-              <!-- Row-1 -->
-              <!-- Box-1 -->
-              <div class="food-box flex">
-
-                <div class="product">
-                  <img src="./assets/Ice_cream_dessert.jpg" alt="dessert item">
-                </div>
-
-                <div class="detail">
-
-                  <h2>Ice Cream</h2>
-                  <p>Treat yourself right, with a dessert tonight.</p>
-                  <button class="btn">Book Now</button>
-
-                </div>
-
-              </div>
-
-
-
-              <!-- Box-2 -->
-              <div class="food-box flex">
-
-                <div class="product">
-                  <img src="./assets/Sweet-Homemade-Mini-Tarts-with_Fresh-Strawberries-and-Cream-Frosting-dessert.jpg"
-                    alt="dessert item">
-                </div>
-
-                <div class="detail">
-
-                  <h2>Mini Tarts with Strawberries</h2>
-                  <p>Treat yourself right, with a dessert tonight.</p>
-                  <button class="btn">Book Now</button>
-
-                </div>
-
-              </div>
-
-
-              <!-- Row-2 Reverse -->
-              <!-- Box-3 -->
-              <!-- <div class="food-box flex R-reverse">
-
-                <div class="product">
-                  <img src="./assets/kaspas-desserts.jpg" alt="dessert item">
-                </div>
-
-                <div class="detail">
-
-                  <h2>kaspas desserts</h2>
-                  <p>Treat yourself right, with a dessert tonight.</p>
-                  <button class="btn">Book Now</button>
-
-                </div>
-
-              </div> -->
-
-
-
-              <!-- Box-4 -->
-              <!-- <div class="food-box flex R-reverse">
-
-                <div class="product">
-                  <img src="./assets/Pastry-dessert.jpg" alt="dessert item">
-                </div>
-
-                <div class="detail">
-
-                  <h2>Pastry</h2>
-                  <p>Treat yourself right, with a dessert tonight.</p>
-                  <button class="btn">Book Now</button>
-
-                </div>
-
-              </div> -->
-
-
-              <!-- Row-3-->
-              <!-- Box-5 -->
-              <div class="food-box flex R-reverse">
-
-                <div class="product">
-                  <img src="./assets/Custard-dessert.png" alt="dessert item">
-                </div>
-
-                <div class="detail">
-
-                  <h2>Custard</h2>
-                  <p>Treat yourself right, with a dessert tonight.</p>
-                  <button class="btn">Book Now</button>
-
-                </div>
-
-              </div>
-
-
-
-              <!-- Box-6 -->
-              <div class="food-box flex R-reverse">
-
-                <div class="product">
-                  <img src="./assets/Mango-Gelatin-featured-dessert.jpg" alt="dessert item">
-                </div>
-
-                <div class="detail">
-
-                  <h2>Mango-Gelatin</h2>
-                  <p>Treat yourself right, with a dessert tonight.</p>
-                  <button class="btn">Book Now</button>
-
-                </div>
-
-              </div>
-
-
-            </div>
+            
 
 
 
@@ -571,92 +338,11 @@
 
 
             <!-- DRINKS IS HERE -->
-            <h1 class="heading center" id="drinks">
-              Cold Drinks
-            </h1>
+           
 
 
             <!-- Food-Rows are here -->
-            <div class="food-row flex">
-
-
-              <!-- Row-1 -->
-              <!-- Box-1 -->
-              <div class="food-box flex">
-
-                <div class="product">
-                  <img src="https://static-01.daraz.pk/p/0a0e85478be648cb9761f5fa7af90593.jpg" alt="drinks">
-                </div>
-
-                <div class="detail">
-
-                  <h2>Cola Next</h2>
-                  <p>Revive, restore, and refresh with every sip.</p>
-                  <button class="btn">Book Now</button>
-
-                </div>
-
-              </div>
-
-
-
-              <!-- Box-2 -->
-              <div class="food-box flex">
-
-                <div class="product">
-                  <img src="https://static-01.daraz.pk/p/13f117ec151f9b13c45580da80be2667.jpg" alt="drinks">
-                </div>
-
-                <div class="detail">
-
-                  <h2>FIZUP Next</h2>
-                  <p>Revive, restore, and refresh with every sip.</p>
-                  <button class="btn">Book Now</button>
-
-                </div>
-
-              </div>
-
-
-              <!-- Row-2 Reverse -->
-              <!-- Box-2 -->
-              <div class="food-box flex R-reverse">
-
-                <div class="product">
-                  <img src="https://i.pinimg.com/736x/72/5f/64/725f64af38fba1e9f984c27518417894.jpg" alt="drinks">
-                </div>
-
-                <div class="detail">
-
-                  <h2>Goormet Lemon Up</h2>
-                  <p>Revive, restore, and refresh with every sip.</p>
-                  <button class="btn">Book Now</button>
-
-                </div>
-
-              </div>
-
-
-
-              <!-- Box-4 -->
-              <div class="food-box flex R-reverse">
-
-                <div class="product">
-                  <img src="https://apnidukan.xyz/wp-content/uploads/2024/05/gourmet-300.jpg" alt="drinks">
-                </div>
-
-                <div class="detail">
-
-                  <h2>Gourmet Cola</h2>
-                  <p>Revive, restore, and refresh with every sip.</p>
-                  <button class="btn">Book Now</button>
-
-                </div>
-
-              </div>
-
-
-            </div>
+            
 
 
 
@@ -741,7 +427,7 @@
 
             <div class="buttom-button">
 
-              <button class="btn">
+              <button class="btn" onclick="alert('You successfully book the Basic Menu')">
 
                 Book Now
 
@@ -796,7 +482,7 @@
 
             <div class="buttom-button">
 
-              <button class="btn">
+              <button class="btn" onclick="alert('You successfully book the Pro Menu')">
 
                 Book Now
 
@@ -851,7 +537,7 @@
 
             <div class="buttom-button">
 
-              <button class="btn">
+              <button class="btn" onclick="alert('You successfully book the Platinum Menu')">
 
                 Book Now
 
@@ -1058,11 +744,11 @@
 
 
      <!-- Arrow is here -->
-  <div class="arrow">
+  <a class="arrow" href="#arrow">
 
-    <a href="#arrow"><p>^</p></a>
+    <p>^</p>
     
-  </div>
+  </a>
 
 
   </div>
@@ -1070,6 +756,7 @@
 
  
 
+  <script src="app.js"></script>
 </body>
 
 </html>

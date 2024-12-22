@@ -81,6 +81,7 @@ a{
 
     background-color: transparent;
     color: var(--main-color);
+    cursor: pointer;
 
 }
 
@@ -156,9 +157,18 @@ ul>li>a{
     position: relative;
     padding-block: 5px;
     font-size: 0.8rem;
+    /* text-decoration: underline 2px var(--main-color);
+    text-underline-offset: 6px; */
 
 }
 
+.clickStyle{
+
+    text-decoration: underline 2px var(--main-color);
+    text-underline-offset: 6px;
+    color: var(--main-color);
+
+}
 ul>li>a::before{
 
     content: '';
@@ -341,7 +351,7 @@ ul>li>a:focus{
     font-family: var(--great-vibe);
     /* letter-spacing: 0.3rem; */
     font-weight: bolder;
-    margin-block: 100px 50px;
+    margin-block: 50px 30px;
     text-shadow: -10px -10px 10px gray;
     word-spacing: 1rem;
 }
